@@ -56,43 +56,43 @@ Before joining ETH Zurich in March 2024, Yumin Li was a Research Associate at th
 
 <div class="home-news-list">
   <div class="home-news-item">
-    <span class="news-marker" aria-hidden="true"></span>
+    <img class="news-marker" src="{{ '/images/news-phoenix-marker.png' | relative_url }}" alt="">
     <div><span class="news-date">Apr 2026</span> Home page updated to feature curated recent news and recent publications sections.</div>
   </div>
   <div class="home-news-item">
-    <span class="news-marker" aria-hidden="true"></span>
+    <img class="news-marker" src="{{ '/images/news-phoenix-marker.png' | relative_url }}" alt="">
     <div><span class="news-date">2026</span> Co-authored work on the global budget of atmospheric glyoxal was published in <em>Atmospheric Chemistry and Physics</em>.</div>
   </div>
   <div class="home-news-item">
-    <span class="news-marker" aria-hidden="true"></span>
+    <img class="news-marker" src="{{ '/images/news-phoenix-marker.png' | relative_url }}" alt="">
     <div><span class="news-date">2025</span> Presented work on global impacts of organic aerosol phase state at the European GEOS-Chem Meeting, the Atmospheric Chemistry GRS/GRC, and EGU General Assembly.</div>
   </div>
   <div class="home-news-item">
-    <span class="news-marker" aria-hidden="true"></span>
+    <img class="news-marker" src="{{ '/images/news-phoenix-marker.png' | relative_url }}" alt="">
     <div><span class="news-date">2025</span> <em>Science</em> published "Nitrogen dominates global atmospheric organic aerosol absorption."</div>
   </div>
   <div class="home-news-item">
-    <span class="news-marker" aria-hidden="true"></span>
+    <img class="news-marker" src="{{ '/images/news-phoenix-marker.png' | relative_url }}" alt="">
     <div><span class="news-date">2025</span> Published a perspective on organic nitrogen and climate impacts of organic aerosols in <em>Chinese Science Bulletin</em>.</div>
   </div>
   <div class="home-news-item">
-    <span class="news-marker" aria-hidden="true"></span>
+    <img class="news-marker" src="{{ '/images/news-phoenix-marker.png' | relative_url }}" alt="">
     <div><span class="news-date">Dec 2024</span> Presented on the global impacts of organic aerosol phase state at the AGU Fall Meeting.</div>
   </div>
   <div class="home-news-item">
-    <span class="news-marker" aria-hidden="true"></span>
+    <img class="news-marker" src="{{ '/images/news-phoenix-marker.png' | relative_url }}" alt="">
     <div><span class="news-date">Mar 2024</span> Joined ETH Zurich as a Postdoctoral Associate in the Institute for Atmospheric and Climate Science.</div>
   </div>
   <div class="home-news-item">
-    <span class="news-marker" aria-hidden="true"></span>
+    <img class="news-marker" src="{{ '/images/news-phoenix-marker.png' | relative_url }}" alt="">
     <div><span class="news-date">Oct 2023</span> Worked as a Research Associate at the Hong Kong University of Science and Technology.</div>
   </div>
   <div class="home-news-item">
-    <span class="news-marker" aria-hidden="true"></span>
+    <img class="news-marker" src="{{ '/images/news-phoenix-marker.png' | relative_url }}" alt="">
     <div><span class="news-date">2023</span> <em>National Science Review</em> published work on the contributions of organic nitrogen aerosols to global atmospheric nitrogen deposition.</div>
   </div>
   <div class="home-news-item">
-    <span class="news-marker" aria-hidden="true"></span>
+    <img class="news-marker" src="{{ '/images/news-phoenix-marker.png' | relative_url }}" alt="">
     <div><span class="news-date">2021</span> <em>Environmental Science &amp; Technology</em> published work on atmospheric levoglucosan degradation and biomass-burning source attribution.</div>
   </div>
 </div>
