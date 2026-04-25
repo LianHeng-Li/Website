@@ -260,24 +260,26 @@ a:hover {
 
 .publication-body {
   display: grid;
-  grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
-  gap: 22px;
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+  gap: 26px;
   align-items: start;
 }
 
 .publication-figure img {
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+  min-height: 420px;
+  max-height: 420px;
+  object-fit: contain;
+  object-position: center;
   border: 1px solid var(--line);
-  background: linear-gradient(180deg, var(--blue-soft) 0%, var(--purple-soft) 100%);
+  background: #ffffff;
 }
 
 .publication-placeholder {
   display: grid;
   place-items: center;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  min-height: 420px;
   padding: 18px;
   border: 1px solid var(--line);
   background: linear-gradient(180deg, var(--blue-soft) 0%, var(--purple-soft) 100%);
@@ -315,6 +317,25 @@ a:hover {
 .publication-placeholder-text {
   margin: 0;
   color: var(--text-soft);
+}
+
+.research-hero {
+  display: grid;
+  gap: 18px;
+}
+
+.research-hero img {
+  width: 100%;
+  border: 1px solid var(--line);
+}
+
+.research-points {
+  display: grid;
+  gap: 14px;
+}
+
+.research-points .info-box {
+  padding: 16px 18px;
 }
 
 .status-pill {
@@ -400,6 +421,12 @@ code {
 
   .publication-body {
     grid-template-columns: 1fr;
+  }
+
+  .publication-figure img,
+  .publication-placeholder {
+    min-height: 320px;
+    max-height: 320px;
   }
 }
 

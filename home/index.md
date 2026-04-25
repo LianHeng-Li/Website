@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav: home
-hero_kicker: Academic Research Group
+hero_kicker: IAC ETH Zurich
 hero_title: Yumin Li
 hero_text: Postdoctoral Associate at the Institute for Atmospheric and Climate Science, ETH Zurich. Research interests include atmospheric organic aerosol, air pollution, atmospheric chemistry-climate interactions, and atmospheric modeling.
 ---
@@ -28,24 +28,24 @@ hero_text: Postdoctoral Associate at the Institute for Atmospheric and Climate S
   </div>
 </div>
 
-## Welcome
+## Biography
 
 Before joining ETH Zurich in March 2024, Yumin Li was a Research Associate at the Hong Kong University of Science and Technology and completed her Ph.D. in Environmental Science, Policy and Management at HKUST in 2023. Her thesis focused on the global sources and impacts of absorptive components in atmospheric organic aerosols.
 
-## Research Themes
+## Research
 
-<div class="info-panel">
-  <div class="info-box">
-    <strong>Theme 1. Atmospheric Organic Aerosol</strong><br>
-    Sources, composition, brown carbon and brown nitrogen, and optical evolution during atmospheric aging.
-  </div>
-  <div class="info-box">
-    <strong>Theme 2. Atmospheric Modeling</strong><br>
-    GEOS-Chem based global modeling of aerosol chemistry, nitrogen deposition, and aerosol-climate interactions.
-  </div>
-  <div class="info-box">
-    <strong>Theme 3. Environmental Impacts</strong><br>
-    Climate forcing, ecosystem nitrogen supply, and health effects associated with aerosol composition and phase state.
+<div class="research-hero">
+  <img src="{{ '/images/Research1.png' | relative_url }}" alt="Research overview">
+  <div class="research-points">
+    <div class="info-box">
+      Atmospheric organic aerosol: sources, composition, brown carbon and brown nitrogen, and optical evolution during atmospheric aging.
+    </div>
+    <div class="info-box">
+      Atmospheric modeling: GEOS-Chem based global modeling of aerosol chemistry, nitrogen deposition, and aerosol-climate interactions.
+    </div>
+    <div class="info-box">
+      Environmental impacts: climate forcing, ecosystem nitrogen supply, and health effects associated with aerosol composition and phase state.
+    </div>
   </div>
 </div>
 
@@ -72,7 +72,7 @@ Before joining ETH Zurich in March 2024, Yumin Li was a Research Associate at th
   <a href="{{ '/publications/' | relative_url }}">View all publications</a>
 </div>
 
-{% assign home_publications = site.data.publications | where: "featured_home", true | sort: "home_rank" %}
+{% assign home_publications = site.data.publications | where: "featured_home", true | where: "status", "Published" | sort: "home_rank" %}
 {% for pub in home_publications limit: 10 %}
   {% include publication-card.html pub=pub %}
 {% endfor %}

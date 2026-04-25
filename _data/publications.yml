@@ -2,7 +2,7 @@
   home_rank: 2
   featured_home: true
   title: "Nitrogen dominates global atmospheric organic aerosol absorption"
-  authors: "Li, Y., Fu, T.-M.*, Yu, J.Z.*, Zhang, A., Yu, X., Ye, J., Zhu, L., Shen, H., Wang, C., Yang, X., Tao, S., Chen, Q., Li, Y., Li, L., Che, H., Heald, C.L."
+  authors: "<strong>Li Yumin</strong>, Tzung-May Fu*, Jian Zhen Yu*, Aoxing Zhang, Xu Yu, Jianhuai Ye, Lei Zhu, Huizhong Shen, Chen Wang, Xin Yang, Shu Tao, Qi Chen, Ying Li, Lei Li, Huizheng Che, Colette L. Heald"
   journal: "Science"
   citation_details: "2025, 387, 6737, 989-995"
   status: "Published"
@@ -18,11 +18,12 @@
   home_rank: 3
   featured_home: true
   title: "Organic nitrogen: a key to unlocking the climate impacts of organic aerosols"
-  authors: "Li, Y., Liao, K., Fu, T.-M.*, & Yu, J.Z.*"
+  authors: "<strong>Li Yumin</strong>, Kezheng Liao, Tzung-May Fu*, and Jian Zhen Yu*"
   journal: "Chinese Science Bulletin"
   citation_details: "2025, 70, 35, 5932-5935"
   status: "Published"
   article_url: "https://doi.org/10.1360/CSB-2025-5511"
+  image: "/publications/images/Li%20Yumin%20CSB%202025.png"
   highlights:
     - "This perspective argues that organic nitrogen is central to understanding the climate impacts of organic aerosols."
     - "It motivates a shift from bulk carbon-centered thinking toward composition-aware attribution of aerosol absorption."
@@ -32,7 +33,7 @@
   home_rank: 4
   featured_home: true
   title: "Dissecting the contributions of organic nitrogen aerosols in global atmospheric N deposition"
-  authors: "Li, Y., Fu, T.-M.*, Yu, J.Z.*, Yu, X., Chen, Q., Miao, R., Zhou, Y., Zhang, A., Ye, J., Yang, X., Tao, S., Liu, H., Yao, W."
+  authors: "<strong>Li Yumin</strong>, Tzung-May Fu*, Jian Zhen Yu*, Xu Yu, Qi Chen, Ruqian Miao, Yang Zhou, Aoxing Zhang, Jianhuai Ye, Xin Yang, Shu Tao, Hongbin Liu, and Weiqi Yao"
   journal: "National Science Review"
   citation_details: "2023, 10, nwad244"
   status: "Published"
@@ -48,7 +49,7 @@
   home_rank: 6
   featured_home: true
   title: "Impacts of chemical degradation on the global budget of atmospheric levoglucosan and its use as a biomass burning tracer"
-  authors: "Li, Y., Fu, T.-M.*, Yu, J.Z.*, Feng, X., Zhang, L., Chen, J., Boreddy, S.K.R., Kawamura, K., Fu, P., Yang, X., Zhu, L., Zeng, Z."
+  authors: "<strong>Li Yumin</strong>, Tzung-May Fu*, Jian Zhen Yu*, Xu Feng, Lijuan Zhang, Jing Chen, Suresh Kumar Reddy Boreddy, Kimitaka Kawamura, Pingqing Fu, Xin Yang, Lei Zhu, and Zhenzhong Zeng"
   journal: "Environmental Science & Technology"
   citation_details: "2021, 55, 8, 5525-5536"
   status: "Published"
@@ -64,11 +65,12 @@
   home_rank: 1
   featured_home: true
   title: "Revisiting the global budget of atmospheric glyoxal: updates on terrestrial and marine precursor emissions, chemistry, and impacts on atmospheric oxidation capacity"
-  authors: "Zhang, A., Fu, T.-M.*, Wang, Y.*, Xiong, E., Wu, W., Li, Y., Zhu, L., Tao, W., Wells, K. C., Millet, D. B., Wang, Z., Yuan, B., Shao, M., Lerot, C., Danckaert, T., Zhang, R., and Bates, K. H."
+  authors: "Aoxing Zhang, Tzung-May Fu*, Yuhang Wang*, Enyu Xiong, Wenlu Wu, <strong>Li Yumin</strong>, Lei Zhu, Wei Tao, Kelley C. Wells, Dylan B. Millet, Zhe Wang, Bin Yuan, Min Shao, Christophe Lerot, Thomas Danckaert, Ruixiong Zhang, and Kelvin H. Bates"
   journal: "Atmospheric Chemistry and Physics"
   citation_details: "2026, 26, 5123-5150"
   status: "Published"
   article_url: "https://doi.org/10.5194/acp-26-5123-2026"
+  image: "/publications/images/Zhang%20Aoxing%202026%20ACP.png"
   highlights:
     - "The study presents an improved global simulation of atmospheric glyoxal using updated emissions and chemistry in GEOS-Chem."
     - "Improved terrestrial precursor treatment substantially reduces the model low bias against land observations."
@@ -78,11 +80,12 @@
   home_rank: 5
   featured_home: true
   title: "Complex gas-particle partitioning of nitro-phenolic compounds: field-based insights and determination of apparent activity coefficient"
-  authors: "Chen, Y., Xia, M., Zheng, P., Li, Y., Zou, Z., Tong, S., Li, K., Feng, X., Hui, L., Yuan, Q., Li, J., Yu, J., Lee, S., Wang, T., & Wang, Z.*"
+  authors: "Yi Chen, Men Xia, Penggang Zheng, <strong>Li Yumin</strong>, Zhouxing Zou, Shengrui Tong, Kun Li, Xin Feng, Lirong Hui, Qi Yuan, Jinjian Li, Jian Zhen Yu, Shuncheng Lee, Tao Wang, and Zifa Wang*"
   journal: "npj Climate and Atmospheric Science"
   citation_details: "2025"
   status: "Published"
   article_url: "https://doi.org/10.1038/s41612-025-01156-z"
+  image: "/publications/images/Chen%20Yi%20npj%202025.png"
   highlights:
     - "The paper quantifies complex gas-particle partitioning behavior of nitro-phenolic compounds using field observations."
     - "It constrains apparent activity coefficients and improves interpretation of multiphase partitioning processes."
@@ -92,11 +95,12 @@
   home_rank: 7
   featured_home: true
   title: "New measurements reveal a large contribution of nitrogenous molecules to ambient organic aerosols"
-  authors: "Yu, X., Li, Q., Liao, K., Li, Y., Wang, X., Zhou, Y., Liang, Y., Yu, J.Z.*"
+  authors: "Xu Yu, Qianfeng Li, Kezheng Liao, <strong>Li Yumin</strong>, Xinming Wang, Yang Zhou, Yongmei Liang, and Jian Zhen Yu*"
   journal: "npj Climate and Atmospheric Science"
   citation_details: "2024, 7, 72"
   status: "Published"
   article_url: "https://doi.org/10.1038/s41612-024-00620-6"
+  image: "/publications/images/Yu%20Xu%20npj%202024.png"
   highlights:
     - "Joint ON and OC measurements indicate that nitrogenous molecules contribute a large fraction of ambient organic aerosol mass."
     - "Biomass burning and secondary formation are major sources of aerosol organic nitrogen."
@@ -106,11 +110,12 @@
   home_rank: 8
   featured_home: true
   title: "Temperature-dependent evaporative anthropogenic VOC emissions significantly exacerbate regional ozone pollution"
-  authors: "Wu, W., Fu, T.-M.*, Arnold, S.*, Spracklen, D.V., Zhang, A., Tao, W., Wang, X., Hou, Y., Mo, J., Chen, J., Li, Y., Feng, X., Lin, H., Huang, Z., Zheng, J., Shen, H., Zhu, L., Wang, C., Ye, J., Yang, X."
+  authors: "Wenlu Wu, Tzung-May Fu*, Stephen Arnold*, Dominick V. Spracklen, Aoxing Zhang, Wei Tao, Xuhui Wang, Yulin Hou, Jing Mo, Jing Chen, <strong>Li Yumin</strong>, Xin Feng, Hui Lin, Zhen Huang, Jiarong Zheng, Huizhong Shen, Lei Zhu, Chen Wang, Jianhuai Ye, and Xin Yang"
   journal: "Environmental Science & Technology"
   citation_details: "2024, 58, 12, 5430-5441"
   status: "Published"
   article_url: "https://doi.org/10.1021/acs.est.3c09122"
+  image: "/publications/images/Wu%20Wenlu%20EST%202024.png"
   highlights:
     - "Temperature-sensitive anthropogenic VOC evaporation significantly enhances summertime ozone in the Beijing-Tianjin-Hebei region."
     - "The modeled ozone-temperature sensitivity from anthropogenic VOC evaporation is comparable to that from biogenic VOC emissions."
@@ -120,11 +125,12 @@
   home_rank: 9
   featured_home: true
   title: "Simultaneous determination of aerosol inorganic and organic nitrogen by thermal evolution and chemiluminescence detection"
-  authors: "Yu, X., Li, Q., Ge, Y., Li, Y., Liao, K., Huang, X.H., Li, J., Yu, J.Z.*"
+  authors: "Xu Yu, Qianfeng Li, Yao Ge, <strong>Li Yumin</strong>, Kezheng Liao, Xin H. Huang, Jinjian Li, and Jian Zhen Yu*"
   journal: "Environmental Science & Technology"
   citation_details: "2021, 55, 17, 11579-11589"
   status: "Published"
   article_url: "https://doi.org/10.1021/acs.est.1c04876"
+  image: "/publications/images/Yu%20Xu%20EST%202021.png"
   highlights:
     - "The paper introduces a direct analytical method for simultaneous quantification of aerosol inorganic and organic nitrogen."
     - "The approach couples programmed thermal evolution with chemiluminescence detection and multivariate curve resolution."
@@ -134,7 +140,7 @@
   home_rank: 10
   featured_home: true
   title: "Observation-constrained quantification of atmospheric deposition of organic and inorganic nitrogen to global oceans"
-  authors: "Yu, X., Li, Y. (co-first author), Shi, G., Wang, Y., Lai, S., Zhou, Y., Yu, L., Zhang, Y., Sun, N., Zhang, B., Hu, Y., Li, Z., Jiang, Y., Li, W., Fu, T.-M.*, Yu, J.Z*."
+  authors: "Xu Yu, <strong>Li Yumin</strong> (co-first author), Guosheng Shi, Yuhang Wang, Sze Chung Lai, Yang Zhou, Le Yu, Yi Zhang, Nan Sun, Bo Zhang, Yan Hu, Zhen Li, Yun Jiang, Wei Li, Tzung-May Fu*, and Jian Zhen Yu*"
   journal: "Science"
   status: "Under review"
   highlights:
@@ -142,7 +148,7 @@
 
 - order: 11
   title: "Global impacts of organic aerosol phase state"
-  authors: "Li, Y.,* Heald, C.L.*, Miao, R., Campuzano-Jost, P., Jimenez, J.L."
+  authors: "<strong>Li Yumin</strong>*, Colette L. Heald*, Ruqian Miao, Pedro Campuzano-Jost, and Jose L. Jimenez"
   journal: "Environmental Science & Technology"
   status: "Revised and Resubmitted"
   highlights:
@@ -150,14 +156,14 @@
 
 - order: 12
   title: "Global assessment of organic aerosol health effects with consideration of phase state"
-  authors: "Li, Y.,* Heald, C.L.*"
+  authors: "<strong>Li Yumin</strong>*, and Colette L. Heald*"
   status: "In Preparation"
   highlights:
     - "Key points to be added."
 
 - order: 13
   title: "Sources, depositions, and radiative forcings of atmospheric organic nitrogen aerosols in East Asia"
-  authors: "Li, Y., Fu, T.-M.*, Yu, J.Z.*, Yu, X."
+  authors: "<strong>Li Yumin</strong>, Tzung-May Fu*, Jian Zhen Yu*, and Xu Yu"
   status: "In Preparation"
   highlights:
     - "Key points to be added."
