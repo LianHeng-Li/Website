@@ -1,0 +1,39 @@
+<div class="publication-card {% unless include.pub.status == 'Published' %}publication-card-text-only{% endunless %}">
+  <div class="publication-header">
+    <h3 class="publication-title">{{ include.pub.title }}</h3>
+    <p class="publication-authors">{{ include.pub.authors }}</p>
+    {% if include.pub.journal or include.pub.citation_details or include.pub.status %}
+    <p class="publication-citation">
+      {% if include.pub.journal %}<em>{{ include.pub.journal }}</em>{% endif %}{% if include.pub.citation_details %}{% if include.pub.journal %}, {% endif %}{{ include.pub.citation_details }}{% endif %}{% if include.pub.status and include.pub.status != "Published" %}{% if include.pub.journal or include.pub.citation_details %}. {% endif %}<span class="status-pill">{{ include.pub.status }}</span>{% endif %}
+    </p>
+    {% endif %}
+    {% if include.pub.article_url %}
+    <p class="publication-links"><a href="{{ include.pub.article_url }}">Article page</a></p>
+    {% endif %}
+  </div>
+
+  {% if include.pub.status == "Published" %}
+  <div class="publication-body">
+    <div class="publication-figure">
+      {% if include.pub.image %}
+      <img src="{{ include.pub.image | relative_url }}" alt="{{ include.pub.title }}">
+      {% else %}
+      <div class="publication-placeholder">Figure to be added</div>
+      {% endif %}
+    </div>
+
+    <div class="publication-content">
+      {% assign bullets = include.pub.highlights %}
+      {% if bullets and bullets.size > 0 %}
+      <ul class="key-findings">
+        {% for item in bullets %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <p class="publication-placeholder-text">Key points to be added.</p>
+      {% endif %}
+    </div>
+  </div>
+  {% endif %}
+</div>

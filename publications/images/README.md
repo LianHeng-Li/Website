@@ -2,11 +2,10 @@
 
 Put publication cover figures or graphical abstracts in this folder.
 
-Suggested filenames for the current entries:
+Current example files:
 
-- `Li_Science_2025.jpg`
-- `Li_CSB_2025.jpg`
-- `Li_NSR_2023.jpg`
-- `Li_EST_2021.jpg`
+- `Li Yumin Science 2026.png`
+- `Li Yumin NSR 2023.png`
+- `Li Yumin EST 2021.png`
 
-After adding an image, replace the placeholder block in `publications/index.md` with a normal image tag if needed.
+If you add new figures later, update the `image` field in `_data/publications.yml`.

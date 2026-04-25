@@ -19,6 +19,12 @@ hero_text: Postdoctoral Associate at the Institute for Atmospheric and Climate S
     <p>Email: <a href="mailto:yumin.li@env.ethz.ch">yumin.li@env.ethz.ch</a></p>
 
     <p>Yumin Li is a Postdoctoral Associate at ETH Zurich. Her work focuses on atmospheric organic aerosols, nitrogen-containing aerosol components, atmospheric modeling, and the climate and ecosystem impacts of air pollution.</p>
+
+    <div class="social-links">
+      <a href="https://orcid.org/0000-0002-5686-3249">ORCID</a>
+      <a href="https://scholar.google.com/citations?user=yhuEUm0AAAAJ&hl=zh-CN">Google Scholar</a>
+      <a href="https://www.researchgate.net/profile/Yumin-Li-11/research">ResearchGate</a>
+    </div>
   </div>
 </div>
 
@@ -66,25 +72,7 @@ Before joining ETH Zurich in March 2024, Yumin Li was a Research Associate at th
   <a href="{{ '/publications/' | relative_url }}">View all publications</a>
 </div>
 
-<div class="publication-list">
-  <div class="publication-item">
-    <strong>Nitrogen dominates global atmospheric organic aerosol absorption</strong><br>
-    Yumin Li, Tzung-May Fu, Jian Zhen Yu, Aoxing Zhang, Xu Yu, Jianhuai Ye, Lei Zhu, Huizhong Shen, Chen Wang, Xin Yang, Shu Tao, Qi Chen, Ying Li, Lei Li, Huizheng Che, Colette L. Heald<br>
-    <span class="publication-meta"><em>Science</em>, 2025, 387, 6737, 989-995. <a href="{{ '/papers/Science%202025%20(%E7%8B%AC%E7%AB%8B%E4%B8%80%E4%BD%9C).pdf' | relative_url }}">PDF</a></span>
-  </div>
-  <div class="publication-item">
-    <strong>Organic nitrogen: a key to unlocking the climate impacts of organic aerosols</strong><br>
-    Yumin Li, Kexin Liao, Tzung-May Fu, Jian Zhen Yu<br>
-    <span class="publication-meta"><em>Chinese Science Bulletin</em>, 2025.</span>
-  </div>
-  <div class="publication-item">
-    <strong>Dissecting the contributions of organic nitrogen aerosols to global atmospheric nitrogen deposition and implications for ecosystems</strong><br>
-    Yumin Li, Tzung-May Fu, Jian Zhen Yu, Xu Yu, Qi Chen, Ruqian Miao, Yang Zhou, Aoxing Zhang, Jianhuai Ye, Xin Yang, Shu Tao, Hongbin Liu, Weiqi Yao<br>
-    <span class="publication-meta"><em>National Science Review</em>, 2023. <a href="{{ '/papers/National%20Science%20Review%20(%E7%8B%AC%E7%AB%8B%E4%B8%80%E4%BD%9C).pdf' | relative_url }}">PDF</a></span>
-  </div>
-  <div class="publication-item">
-    <strong>Impacts of Chemical Degradation on the Global Budget of Atmospheric Levoglucosan and Its Use As a Biomass Burning Tracer</strong><br>
-    Yumin Li, Tzung-May Fu, Jian Zhen Yu, Xu Feng, Lijuan Zhang, Jing Chen, Suresh Kumar Reddy Boreddy, Kimitaka Kawamura, Pingqing Fu, Xin Yang, Lei Zhu, Zhenzhong Zeng<br>
-    <span class="publication-meta"><em>Environmental Science &amp; Technology</em>, 2021, 55, 5525-5536. <a href="{{ '/papers/EST%202021(%E7%8B%AC%E7%AB%8B%E4%B8%80%E4%BD%9C).pdf' | relative_url }}">PDF</a></span>
-  </div>
-</div>
+{% assign home_publications = site.data.publications | where: "featured_home", true | sort: "home_rank" %}
+{% for pub in home_publications limit: 10 %}
+  {% include publication-card.html pub=pub %}
+{% endfor %}

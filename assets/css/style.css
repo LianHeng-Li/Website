@@ -234,11 +234,14 @@ a:hover {
 
 .publication-card {
   display: grid;
-  grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
-  gap: 22px;
+  gap: 18px;
   padding: 22px;
   background: #ffffff;
   border: 1px solid var(--line);
+}
+
+.publication-card-text-only {
+  gap: 8px;
 }
 
 .publication-card + .publication-card {
@@ -249,6 +252,17 @@ a:hover {
   display: grid;
   gap: 10px;
   align-content: start;
+}
+
+.publication-header {
+  min-width: 0;
+}
+
+.publication-body {
+  display: grid;
+  grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+  gap: 22px;
+  align-items: start;
 }
 
 .publication-figure img {
@@ -295,6 +309,33 @@ a:hover {
 }
 
 .publication-links a {
+  font-weight: 600;
+}
+
+.publication-placeholder-text {
+  margin: 0;
+  color: var(--text-soft);
+}
+
+.status-pill {
+  color: #6f4bbb;
+  font-weight: 600;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  background: var(--purple-soft);
+  color: #6f4bbb;
   font-weight: 600;
 }
 
@@ -357,7 +398,7 @@ code {
     grid-template-columns: 1fr;
   }
 
-  .publication-card {
+  .publication-body {
     grid-template-columns: 1fr;
   }
 }
