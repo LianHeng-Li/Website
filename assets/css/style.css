@@ -397,7 +397,7 @@ a:hover {
   margin-top: 0.12rem;
   object-fit: contain;
   flex: 0 0 36px;
-  transform: rotate(-15deg);
+  transform: rotate(-30deg);
   transform-origin: center;
 }
 
