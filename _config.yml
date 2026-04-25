@@ -1,0 +1,10 @@
+title: Academic Research Group
+tagline: Department of XXX, ETH Zurich
+description: Academic group website for GitHub Pages
+footer_text: Copyright 2026 Academic Research Group. Built with GitHub Pages and Markdown.
+markdown: kramdown
+theme: null
+plugins: []
+include:
+  - assets
+  - images

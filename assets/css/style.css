@@ -1,0 +1,273 @@
+:root {
+  --bg: #ffffff;
+  --surface: #fbfbfd;
+  --line: #d8dceb;
+  --line-strong: #b5bfd9;
+  --text: #101321;
+  --text-soft: #4d556d;
+  --blue: #214e9b;
+  --blue-soft: #eaf0fb;
+  --purple-soft: #f3efff;
+  --link: #224c97;
+  --link-hover: #17366c;
+  --max-width: 1120px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.7;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(255, 255, 255, 0.96);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(10px);
+}
+
+.site-header-inner,
+.page-shell,
+.site-footer-inner {
+  width: min(calc(100% - 48px), var(--max-width));
+  margin: 0 auto;
+}
+
+.site-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  min-height: 78px;
+}
+
+.site-brand {
+  display: inline-flex;
+  flex-direction: column;
+  color: var(--text);
+}
+
+.site-brand-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.site-brand-subtitle {
+  font-size: 0.88rem;
+  color: var(--text-soft);
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.site-nav a {
+  padding: 8px 0;
+  border-bottom: 2px solid transparent;
+  color: var(--text-soft);
+  font-weight: 600;
+}
+
+.site-nav a[aria-current="page"],
+.site-nav a:hover {
+  color: var(--blue);
+  border-color: var(--blue);
+}
+
+.page-shell {
+  padding: 44px 0 72px;
+}
+
+.hero-block {
+  display: grid;
+  gap: 14px;
+  padding: 36px 40px;
+  margin-bottom: 28px;
+  background: linear-gradient(180deg, var(--blue-soft) 0%, var(--purple-soft) 100%);
+  border: 1px solid var(--line);
+}
+
+.hero-kicker {
+  margin: 0;
+  color: var(--blue);
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.hero-block h1 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.15;
+  letter-spacing: 0;
+}
+
+.hero-text {
+  max-width: 760px;
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 1.02rem;
+}
+
+.content-card {
+  padding: 34px 40px 40px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+
+.content-card h1,
+.content-card h2,
+.content-card h3 {
+  color: var(--text);
+  line-height: 1.25;
+}
+
+.content-card h2 {
+  margin-top: 2.2rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.content-card p,
+.content-card li {
+  color: var(--text-soft);
+}
+
+.content-card strong {
+  color: var(--text);
+}
+
+.content-card ul,
+.content-card ol {
+  padding-left: 1.3rem;
+}
+
+.content-card blockquote {
+  margin: 1.5rem 0;
+  padding: 0.2rem 0 0.2rem 1rem;
+  border-left: 3px solid var(--line-strong);
+  color: var(--text-soft);
+}
+
+.content-card img {
+  max-width: 100%;
+  display: block;
+}
+
+.lead-grid {
+  display: grid;
+  grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+  margin-bottom: 1.2rem;
+}
+
+.profile-image {
+  width: 100%;
+  border: 1px solid var(--line);
+}
+
+.info-panel,
+.news-list,
+.publication-list,
+.contact-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.news-item,
+.publication-item,
+.contact-item,
+.info-box {
+  padding: 18px 20px;
+  background: #ffffff;
+  border: 1px solid var(--line);
+}
+
+.news-item time,
+.publication-meta,
+.muted {
+  color: var(--text-soft);
+  font-size: 0.94rem;
+}
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  background: #fff;
+}
+
+.site-footer-inner {
+  padding: 18px 0 28px;
+}
+
+.site-footer p {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 0.92rem;
+}
+
+code {
+  padding: 0.1rem 0.35rem;
+  background: var(--purple-soft);
+  color: var(--text);
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 0.92em;
+}
+
+@media (max-width: 860px) {
+  .site-header-inner {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 16px 0;
+  }
+
+  .page-shell {
+    padding-top: 28px;
+  }
+
+  .hero-block,
+  .content-card {
+    padding: 24px;
+  }
+
+  .lead-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .site-header-inner,
+  .page-shell,
+  .site-footer-inner {
+    width: min(calc(100% - 28px), var(--max-width));
+  }
+
+  .site-nav {
+    gap: 14px;
+  }
+}
