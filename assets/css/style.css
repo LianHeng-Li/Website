@@ -27,6 +27,7 @@ body {
   color: var(--text);
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.7;
+  font-size: 18px;
 }
 
 a {
@@ -131,7 +132,7 @@ a:hover {
   max-width: 760px;
   margin: 0;
   color: var(--text-soft);
-  font-size: 1.02rem;
+  font-size: 1.08rem;
 }
 
 .content-card {
@@ -151,11 +152,13 @@ a:hover {
   margin-top: 2.2rem;
   padding-bottom: 0.45rem;
   border-bottom: 1px solid var(--line);
+  font-size: 1.65rem;
 }
 
 .content-card p,
 .content-card li {
   color: var(--text-soft);
+  font-size: 1.08rem;
 }
 
 .content-card strong {
@@ -209,6 +212,13 @@ a:hover {
   border: 1px solid var(--line);
 }
 
+.news-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  align-items: start;
+}
+
 .section-header {
   display: flex;
   align-items: baseline;
@@ -260,15 +270,15 @@ a:hover {
 
 .publication-body {
   display: grid;
-  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
-  gap: 26px;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: 22px;
   align-items: start;
 }
 
 .publication-figure img {
   width: 100%;
-  min-height: 420px;
-  max-height: 420px;
+  min-height: 280px;
+  max-height: 280px;
   object-fit: contain;
   object-position: center;
   border: 1px solid var(--line);
@@ -279,7 +289,7 @@ a:hover {
   display: grid;
   place-items: center;
   width: 100%;
-  min-height: 420px;
+  min-height: 280px;
   padding: 18px;
   border: 1px solid var(--line);
   background: linear-gradient(180deg, var(--blue-soft) 0%, var(--purple-soft) 100%);
@@ -338,6 +348,11 @@ a:hover {
   padding: 16px 18px;
 }
 
+.research-label {
+  color: #6f4bbb;
+  font-weight: 700;
+}
+
 .status-pill {
   color: #6f4bbb;
   font-weight: 600;
@@ -358,6 +373,37 @@ a:hover {
   background: var(--purple-soft);
   color: #6f4bbb;
   font-weight: 600;
+}
+
+.home-news-list {
+  display: grid;
+  gap: 16px;
+}
+
+.home-news-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  padding: 16px 18px;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  align-items: start;
+}
+
+.news-marker {
+  width: 18px;
+  height: 18px;
+  margin-top: 0.32rem;
+  background-image: url("/images/news-phoenix-marker.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  flex: 0 0 18px;
+}
+
+.news-date {
+  color: var(--blue);
+  font-weight: 700;
 }
 
 .key-findings {
@@ -425,8 +471,8 @@ code {
 
   .publication-figure img,
   .publication-placeholder {
-    min-height: 320px;
-    max-height: 320px;
+    min-height: 240px;
+    max-height: 240px;
   }
 }
 

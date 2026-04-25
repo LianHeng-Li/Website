@@ -38,13 +38,13 @@ Before joining ETH Zurich in March 2024, Yumin Li was a Research Associate at th
   <img src="{{ '/images/Research1.png' | relative_url }}" alt="Research overview">
   <div class="research-points">
     <div class="info-box">
-      Atmospheric organic aerosol: sources, composition, brown carbon and brown nitrogen, and optical evolution during atmospheric aging.
+      <span class="research-label">Atmospheric organic aerosol</span>: sources, composition, brown carbon and brown nitrogen, atmospheric aging, and phase state.
     </div>
     <div class="info-box">
-      Atmospheric modeling: GEOS-Chem based global modeling of aerosol chemistry, nitrogen deposition, and aerosol-climate interactions.
+      <span class="research-label">Atmospheric modeling</span>: GEOS-Chem global modeling of aerosol chemistry, RRTMG, and coupling with other models and AI.
     </div>
     <div class="info-box">
-      Environmental impacts: climate forcing, ecosystem nitrogen supply, and health effects associated with aerosol composition and phase state.
+      <span class="research-label">Environmental impacts</span>: climate change, air quality, and ecosystem effects.
     </div>
   </div>
 </div>
@@ -54,18 +54,48 @@ Before joining ETH Zurich in March 2024, Yumin Li was a Research Associate at th
   <a href="{{ '/news/' | relative_url }}">View all news</a>
 </div>
 
-<ol class="simple-news-list">
-  <li><strong>April 2026:</strong> Home page updated to feature curated recent news and recent publications sections.</li>
-  <li><strong>2026:</strong> Co-authored work on the global budget of atmospheric glyoxal was published in <em>Atmospheric Chemistry and Physics</em>.</li>
-  <li><strong>2025:</strong> Presented work on global impacts of organic aerosol phase state at the European GEOS-Chem Meeting, the Atmospheric Chemistry GRS/GRC, and EGU General Assembly.</li>
-  <li><strong>2025:</strong> <em>Science</em> published "Nitrogen dominates global atmospheric organic aerosol absorption."</li>
-  <li><strong>2025:</strong> Published a perspective on organic nitrogen and climate impacts of organic aerosols in <em>Chinese Science Bulletin</em>.</li>
-  <li><strong>December 2024:</strong> Presented on the global impacts of organic aerosol phase state at the AGU Fall Meeting.</li>
-  <li><strong>March 2024:</strong> Joined ETH Zurich as a Postdoctoral Associate in the Institute for Atmospheric and Climate Science.</li>
-  <li><strong>October 2023 to January 2024:</strong> Worked as a Research Associate at the Hong Kong University of Science and Technology.</li>
-  <li><strong>2023:</strong> <em>National Science Review</em> published work on the contributions of organic nitrogen aerosols to global atmospheric nitrogen deposition.</li>
-  <li><strong>2021:</strong> <em>Environmental Science &amp; Technology</em> published work on atmospheric levoglucosan degradation and biomass-burning source attribution.</li>
-</ol>
+<div class="home-news-list">
+  <div class="home-news-item">
+    <span class="news-marker" aria-hidden="true"></span>
+    <div><span class="news-date">Apr 2026</span> Home page updated to feature curated recent news and recent publications sections.</div>
+  </div>
+  <div class="home-news-item">
+    <span class="news-marker" aria-hidden="true"></span>
+    <div><span class="news-date">2026</span> Co-authored work on the global budget of atmospheric glyoxal was published in <em>Atmospheric Chemistry and Physics</em>.</div>
+  </div>
+  <div class="home-news-item">
+    <span class="news-marker" aria-hidden="true"></span>
+    <div><span class="news-date">2025</span> Presented work on global impacts of organic aerosol phase state at the European GEOS-Chem Meeting, the Atmospheric Chemistry GRS/GRC, and EGU General Assembly.</div>
+  </div>
+  <div class="home-news-item">
+    <span class="news-marker" aria-hidden="true"></span>
+    <div><span class="news-date">2025</span> <em>Science</em> published "Nitrogen dominates global atmospheric organic aerosol absorption."</div>
+  </div>
+  <div class="home-news-item">
+    <span class="news-marker" aria-hidden="true"></span>
+    <div><span class="news-date">2025</span> Published a perspective on organic nitrogen and climate impacts of organic aerosols in <em>Chinese Science Bulletin</em>.</div>
+  </div>
+  <div class="home-news-item">
+    <span class="news-marker" aria-hidden="true"></span>
+    <div><span class="news-date">Dec 2024</span> Presented on the global impacts of organic aerosol phase state at the AGU Fall Meeting.</div>
+  </div>
+  <div class="home-news-item">
+    <span class="news-marker" aria-hidden="true"></span>
+    <div><span class="news-date">Mar 2024</span> Joined ETH Zurich as a Postdoctoral Associate in the Institute for Atmospheric and Climate Science.</div>
+  </div>
+  <div class="home-news-item">
+    <span class="news-marker" aria-hidden="true"></span>
+    <div><span class="news-date">Oct 2023</span> Worked as a Research Associate at the Hong Kong University of Science and Technology.</div>
+  </div>
+  <div class="home-news-item">
+    <span class="news-marker" aria-hidden="true"></span>
+    <div><span class="news-date">2023</span> <em>National Science Review</em> published work on the contributions of organic nitrogen aerosols to global atmospheric nitrogen deposition.</div>
+  </div>
+  <div class="home-news-item">
+    <span class="news-marker" aria-hidden="true"></span>
+    <div><span class="news-date">2021</span> <em>Environmental Science &amp; Technology</em> published work on atmospheric levoglucosan degradation and biomass-burning source attribution.</div>
+  </div>
+</div>
 
 <div class="section-header">
   <h2>Recent Publications</h2>
