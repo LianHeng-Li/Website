@@ -11,7 +11,7 @@
   highlights:
     - "BrN contributes 76% of organic aerosol light absorption over the U.S. and 61% globally, with biomass burning as the largest source."
     - "BrN absorptive capacity decreases significantly with aging, with variability driven by seasonal and spatial factors."
-    - "BrN accounts for 18% of the global absorptive direct radiative effect of carbonaceous aerosols, with a mean radiative forcing of 0.034 W/m^2."
+    - "BrN accounts for 18% of the global absorptive direct radiative effect of carbonaceous aerosols, with a mean radiative forcing of 0.034 W/m<sup>2</sup>."
     - "The study provides a nitrogen-focused approach to assessing the climate impacts of organic aerosols, emphasizing chemical evolution and radiative absorption."
 
 - order: 2
@@ -40,10 +40,10 @@
   article_url: "https://doi.org/10.1093/nsr/nwad244"
   image: "/publications/images/Li%20Yumin%20NSR%202023.png"
   highlights:
-    - "Global atmospheric organic nitrogen deposition is estimated at 26 Tg N yr^-1, predominantly in particulate form."
-    - "Wildfires, oceans, and aqueous production are the dominant sources of particulate organic nitrogen deposition."
+    - "Global atmospheric organic nitrogen deposition is estimated at 26 Tg N yr<sup>-1</sup>, predominantly in particulate form."
+    - "Wildfires, oceans, and secondary formations are the dominant sources of particulate organic nitrogen deposition."
     - "Organic nitrogen contributes 40% to 80% of total nitrogen deposition downwind of biomass-burning regions."
-    - "Atmospheric organic nitrogen deposition is a major external nitrogen supply to N-limited boreal forests, tundras, and the Arctic Ocean."
+    - "Atmospheric organic nitrogen deposition is a important external nitrogen supply to N-limited boreal forests, tundras, and the Arctic Ocean."
 
 - order: 4
   home_rank: 4
@@ -73,7 +73,7 @@
   image: "/publications/images/Zhang%20Aoxing%202026%20ACP.png"
   highlights:
     - "The study presents an improved global simulation of atmospheric glyoxal using updated emissions and chemistry in GEOS-Chem."
-    - "Improved terrestrial precursor treatment substantially reduces the model low bias against land observations."
+    - "Improved precursor treatment substantially reduces the model low bias against observations."
     - "The revised glyoxal budget implies stronger atmospheric oxidation capacity and enhanced SOA formation."
 
 - order: 6
