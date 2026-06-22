@@ -4,18 +4,9 @@ title: News
 nav: news
 hero_kicker: Updates
 hero_title: News
-hero_text: News items are listed in reverse chronological order. Keep the latest ten on the home page and use this page for the full record.
 ---
 
 ## 2026
-
-<div class="news-list">
-  <div class="news-item">
-    <img class="news-marker" src="{{ '/images/news-phoenix-marker.png' | relative_url }}" alt="">
-    <div><time>April 2026</time><br>
-    <strong>Website updated with curated research, news, and publication sections.</strong><br>
-    The home page now highlights recent news and recent publications, and the publications page has been reorganized into image-and-summary cards.</div>
-  </div>
 
   <div class="news-item">
     <img class="news-marker" src="{{ '/images/news-phoenix-marker.png' | relative_url }}" alt="">
@@ -81,14 +72,14 @@ hero_text: News items are listed in reverse chronological order. Keep the latest
   <div class="news-item">
     <img class="news-marker" src="{{ '/images/news-phoenix-marker.png' | relative_url }}" alt="">
     <div><time>2023</time><br>
-    <strong><em>National Science Review</em> published work on organic nitrogen aerosols and global nitrogen deposition.</strong><br>
+    <strong>Published in <em>National Science Review</em>: "Dissecting the contributions of organic nitrogen aerosols in global atmospheric N deposition."</strong><br>
     The paper quantified major ON deposition pathways and highlighted implications for N-limited ecosystems.</div>
   </div>
 
   <div class="news-item">
     <img class="news-marker" src="{{ '/images/news-phoenix-marker.png' | relative_url }}" alt="">
     <div><time>2021</time><br>
-    <strong><em>Environmental Science &amp; Technology</em> published work on atmospheric levoglucosan degradation.</strong><br>
+    <strong>Published in <em>Environmental Science & Technology</em>: "Impacts of chemical degradation on the global budget of atmospheric levoglucosan and its use as a biomass burning tracer."</strong><br>
     The study improved the interpretation of levoglucosan measurements for biomass-burning source attribution.</div>
   </div>
 </div>
