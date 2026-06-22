@@ -4,7 +4,6 @@ title: Projects
 nav: projects
 hero_kicker: Ongoing Work
 hero_title: Projects
-hero_text: Use this page to summarize current projects, collaborations, datasets, or software outputs from the group.
 ---
 
 ## Active Projects
