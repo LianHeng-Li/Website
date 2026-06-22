@@ -4,7 +4,6 @@ title: Publications
 nav: publications
 hero_kicker: Research Output
 hero_title: Publications
-hero_text: This page displays the full publication list in the specified order. Home page display can be controlled separately in _data/publications.yml.
 ---
 
 ## Publications
