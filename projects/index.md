@@ -10,21 +10,15 @@ hero_title: Projects
 
 <div class="info-panel">
   <div class="info-box">
-    <strong>Brown Nitrogen Chemistry</strong><br>
-    Short description of scientific motivation, methods, and expected outcomes.
+    <strong>Organic Nitrogen Aerosol</strong><br>
+    Atmospheric organic nitrogen aerosols are important light-absorbing components, sources of nitrogen deposition, and contributors to nitrogen-containing toxic atmospheric species. This project investigates the atmospheric sources, chemical evolution, and climate and health impacts of organic nitrogen aerosols.
   </div>
   <div class="info-box">
-    <strong>Air Quality Modeling</strong><br>
-    Add model framework, study region, and major scientific questions here.
+    <strong>Organic Aerosol Phase State</strong><br>
+    Atmospheric organic matter can exist in liquid, semi-solid, and solid states, which strongly influence multiphase chemistry, aerosol aging, and the formation and loss of atmospheric pollutants.
   </div>
   <div class="info-box">
-    <strong>Machine Learning for Geoscience</strong><br>
-    Summarize the data sources, algorithms, and application scenarios.
+    <strong>Atmospheric Model Development and AI Interface</strong><br>
+    This project develops more comprehensive atmospheric physical and chemical models, and builds AI interfaces to improve computational resolution and reduce model runtime.
   </div>
 </div>
-
-## Resources
-
-- Software repository: add your GitHub link
-- Dataset page: add external or internal dataset links
-- Collaboration note: add participating institutions or researchers
