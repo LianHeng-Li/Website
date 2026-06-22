@@ -18,7 +18,7 @@ hero_text: Postdoctoral Associate at the Institute for Atmospheric and Climate S
 
     <p>Email: <a href="mailto:yumin.li@env.ethz.ch">yumin.li@env.ethz.ch</a></p>
 
-    <p>Yumin Li is a Postdoctoral Associate at ETH Zurich. Her work focuses on atmospheric organic aerosols, nitrogen-containing aerosol components, atmospheric modeling, and the climate and ecosystem impacts of air pollution.</p>
+    <p>Yumin Li is a Postdoctoral Associate at ETH Zurich. Her research focused on global atmospheric chemistry and its implications for climate change and air quality. Key research areas included atmospheric organic aerosols, nitrogen-containing aerosol species, atmospheric chemical transport modeling, aerosol phase state and the impacts of air pollution on climate and ecosystem health.</p>
 
     <div class="social-links">
       <a href="https://orcid.org/0000-0002-5686-3249">ORCID</a>
@@ -30,7 +30,14 @@ hero_text: Postdoctoral Associate at the Institute for Atmospheric and Climate S
 
 ## Biography
 
-Before joining ETH Zurich in March 2024, Yumin Li was a Research Associate at the Hong Kong University of Science and Technology and completed her Ph.D. in Environmental Science, Policy and Management at HKUST in 2023. Her thesis focused on the global sources and impacts of absorptive components in atmospheric organic aerosols.
+Research Associate                                                                                                                       10/2023–01/2024
+-Hong Kong University of Science and Technology, China, Division of Environment and Sustainability 
+
+Hong Kong University of Science and Technology, China                                                                                    2019–2023
+- Ph.D., Environmental Science, Policy and Management
+
+Southern University of Science and Technology, China                                                                                     2015–2019
+- B.Sc., Environmental Science and Engineering 
 
 ## Research
 
