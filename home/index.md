@@ -31,31 +31,25 @@ hero_text: Postdoctoral Associate at the Institute for Atmospheric and Climate S
 ## Biography
 
 <div class="bio-list">
-  <div class="bio-entry">
+  <div class="bio-entry bio-entry-single">
     <div class="bio-main">
       <strong>Postdoctoral Associate</strong>
       <span>03/2024-Present</span>
     </div>
     <div class="bio-sub">Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland</div>
-  </div>
 
-  <div class="bio-entry">
     <div class="bio-main">
       <strong>Research Associate</strong>
       <span>10/2023-01/2024</span>
     </div>
     <div class="bio-sub">Division of Environment and Sustainability, Hong Kong University of Science and Technology, China</div>
-  </div>
 
-  <div class="bio-entry">
     <div class="bio-main">
       <strong>Ph.D. in Environmental Science, Policy and Management</strong>
       <span>2019-2023</span>
     </div>
     <div class="bio-sub">Hong Kong University of Science and Technology, China</div>
-  </div>
 
-  <div class="bio-entry">
     <div class="bio-main">
       <strong>B.Sc. in Environmental Science and Engineering</strong>
       <span>2015-2019</span>
