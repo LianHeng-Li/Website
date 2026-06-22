@@ -30,14 +30,39 @@ hero_text: Postdoctoral Associate at the Institute for Atmospheric and Climate S
 
 ## Biography
 
-Research Associate                                                                                                                       10/2023–01/2024
--Hong Kong University of Science and Technology, China, Division of Environment and Sustainability 
+<div class="bio-list">
+  <div class="bio-entry">
+    <div class="bio-main">
+      <strong>Postdoctoral Associate</strong>
+      <span>03/2024-Present</span>
+    </div>
+    <div class="bio-sub">Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland</div>
+  </div>
 
-Hong Kong University of Science and Technology, China                                                                                    2019–2023
-- Ph.D., Environmental Science, Policy and Management
+  <div class="bio-entry">
+    <div class="bio-main">
+      <strong>Research Associate</strong>
+      <span>10/2023-01/2024</span>
+    </div>
+    <div class="bio-sub">Division of Environment and Sustainability, Hong Kong University of Science and Technology, China</div>
+  </div>
 
-Southern University of Science and Technology, China                                                                                     2015–2019
-- B.Sc., Environmental Science and Engineering 
+  <div class="bio-entry">
+    <div class="bio-main">
+      <strong>Ph.D. in Environmental Science, Policy and Management</strong>
+      <span>2019-2023</span>
+    </div>
+    <div class="bio-sub">Hong Kong University of Science and Technology, China</div>
+  </div>
+
+  <div class="bio-entry">
+    <div class="bio-main">
+      <strong>B.Sc. in Environmental Science and Engineering</strong>
+      <span>2015-2019</span>
+    </div>
+    <div class="bio-sub">Southern University of Science and Technology, China</div>
+  </div>
+</div>
 
 ## Research
 
@@ -72,10 +97,6 @@ Southern University of Science and Technology, China                            
   </div>
   <div class="home-news-item">
     <img class="news-marker" src="{{ '/images/news-phoenix-marker.png' | relative_url }}" alt="">
-    <div><span class="news-date">2025</span> Presented work on global impacts of organic aerosol phase state at the European GEOS-Chem Meeting, the Atmospheric Chemistry GRS/GRC, and EGU General Assembly.</div>
-  </div>
-  <div class="home-news-item">
-    <img class="news-marker" src="{{ '/images/news-phoenix-marker.png' | relative_url }}" alt="">
     <div><span class="news-date">2025</span> <em>Science</em> published "Nitrogen dominates global atmospheric organic aerosol absorption."</div>
   </div>
   <div class="home-news-item">
@@ -84,23 +105,7 @@ Southern University of Science and Technology, China                            
   </div>
   <div class="home-news-item">
     <img class="news-marker" src="{{ '/images/news-phoenix-marker.png' | relative_url }}" alt="">
-    <div><span class="news-date">Dec 2024</span> Presented on the global impacts of organic aerosol phase state at the AGU Fall Meeting.</div>
-  </div>
-  <div class="home-news-item">
-    <img class="news-marker" src="{{ '/images/news-phoenix-marker.png' | relative_url }}" alt="">
-    <div><span class="news-date">Mar 2024</span> Joined ETH Zurich as a Postdoctoral Associate in the Institute for Atmospheric and Climate Science.</div>
-  </div>
-  <div class="home-news-item">
-    <img class="news-marker" src="{{ '/images/news-phoenix-marker.png' | relative_url }}" alt="">
-    <div><span class="news-date">Oct 2023</span> Worked as a Research Associate at the Hong Kong University of Science and Technology.</div>
-  </div>
-  <div class="home-news-item">
-    <img class="news-marker" src="{{ '/images/news-phoenix-marker.png' | relative_url }}" alt="">
-    <div><span class="news-date">2023</span> <em>National Science Review</em> published work on the contributions of organic nitrogen aerosols to global atmospheric nitrogen deposition.</div>
-  </div>
-  <div class="home-news-item">
-    <img class="news-marker" src="{{ '/images/news-phoenix-marker.png' | relative_url }}" alt="">
-    <div><span class="news-date">2021</span> <em>Environmental Science &amp; Technology</em> published work on atmospheric levoglucosan degradation and biomass-burning source attribution.</div>
+    <div><span class="news-date">2025</span> Presented at European GEOS-Chem Meeting, Atmospheric Chemistry GRS/GRC, and EGU General Assembly.</div>
   </div>
 </div>
 
